@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>AppveyorTest</id>
+        <version>1.0.0.0</version>
+        <title>AppveyorTest</title>
+        <authors>Mustafa Salih ASLIM</authors>
+        <owners>Mustafa Salih ASLIM</owners>
+        <licenseUrl>https://github.com/msx752/AppveyorBuildTest/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/msx752/AppveyorBuildTest</projectUrl>
+        <iconUrl>https://github.com/msx752/AppveyorBuildTest/blob/master/icon.png?raw=true</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>AppveyorTest</description>
+        <releaseNotes />
+        <copyright>Copyright 2019</copyright>
+        <tags>AppveyorTest</tags>
+        <dependencies>
+            <group>
+             
+             
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+    
+
+
+    </files>
+</package>
