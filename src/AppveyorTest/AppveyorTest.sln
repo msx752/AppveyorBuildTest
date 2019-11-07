@@ -7,13 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Net Core", ".Net Core", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Net", ".Net", "{44D0BFC4-CD36-4E54-9D15-ED0A496B16CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppveyorTest", "AppveyorTest\AppveyorTest.csproj", "{FA32929B-8439-4CEF-B4B6-4BAC0290E4F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppveyorTest", "AppveyorTest\AppveyorTest.csproj", "{FA32929B-8439-4CEF-B4B6-4BAC0290E4F5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{6AE3E97D-BFDE-4F12-BB09-943C63EA2B10}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{85E9D2B8-2F87-4900-8EB2-783F8B6241DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppveyorTest.NetCore", "AppveyorTest.NetCore\AppveyorTest.NetCore.csproj", "{2BF28C9C-2B6D-4607-886D-6C6DCF5B7906}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppveyorTest.NetCore", "AppveyorTest.NetCore\AppveyorTest.NetCore.csproj", "{2BF28C9C-2B6D-4607-886D-6C6DCF5B7906}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppveyorTest.Net452", "AppveyorTest.Net452\AppveyorTest.Net452.csproj", "{D292BD2B-90C6-4F19-A298-411046EA3645}"
 EndProject
