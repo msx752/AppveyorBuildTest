@@ -16,14 +16,23 @@
         <tags>AppveyorTest</tags>
         <dependencies>
             <group>
-             
-             
+            	<dependency id="System" version="4.0.0.0" />
+            	<dependency id="System.Windows.Forms" version="4.0.0.0" />
             </group>
         </dependencies>
     </metadata>
+
     <files>
-    
+	    <file src="src\AppveyorTest\AppveyorTest\bin\Release\net452\AppveyorTest.dll" target="lib\net452\AppveyorTest.dll" />
+	    <file src="src\AppveyorTest\AppveyorTest\bin\Release\net452\AppveyorTest.xml" target="lib\net452\AppveyorTest.xml" />
+	    <file src="src\AppveyorTest\AppveyorTest\bin\Release\net452\AppveyorTest.pdb" target="lib\net452\AppveyorTest.pdb" />
 
+	    <file src="src\AppveyorTest\AppveyorTest\bin\Release\netcoreapp3.0\AppveyorTest.xml" target="lib\netcoreapp3.0\AppveyorTest.deps.json" />
+	 	<file src="src\AppveyorTest\AppveyorTest\bin\Release\netcoreapp3.0\AppveyorTest.dll" target="lib\netcoreapp3.0\AppveyorTest.dll" />
+	    <file src="src\AppveyorTest\AppveyorTest\bin\Release\netcoreapp3.0\AppveyorTest.pdb" target="lib\netcoreapp3.0\AppveyorTest.pdb" />
 
+	    <file src="src\AppveyorTest\AppveyorTest\bin\Release\netcoreapp3.1\AppveyorTest.xml" target="lib\netcoreapp3.1\AppveyorTest.deps.json" />
+	 	<file src="src\AppveyorTest\AppveyorTest\bin\Release\netcoreapp3.1\AppveyorTest.dll" target="lib\netcoreapp3.1\AppveyorTest.dll" />
+	    <file src="src\AppveyorTest\AppveyorTest\bin\Release\netcoreapp3.1\AppveyorTest.pdb" target="lib\netcoreapp3.1\AppveyorTest.pdb" />
     </files>
 </package>
