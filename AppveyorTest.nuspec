@@ -13,7 +13,7 @@
         <description>AppveyorTest</description>
         <releaseNotes />
         <copyright>Copyright 2019</copyright>
-        <tags>AppveyorBuildTest</tags>
+        <tags>AppveyorTest</tags>
         <dependencies>
             <group>
             	<dependency id="System" version="4.0.0.0" />
