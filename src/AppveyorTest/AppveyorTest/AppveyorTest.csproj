@@ -3,8 +3,24 @@
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFrameworks>net452;netcoreapp3.1;netcoreapp3.0;</TargetFrameworks>
+    <PackageId>AppveyorTest</PackageId>
+    <Authors>Mustafa Salih ASLIM</Authors>
+    <Company />
+    <Product />
+    <Description>AppveyorTest</Description>
+    <Copyright>Copyright 2019</Copyright>
+    <PackageProjectUrl>https://github.com/msx752/AppveyorBuildTest</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/msx752/AppveyorBuildTest</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>AppveyorBuildTest</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
-
+  
+  <ItemGroup>
+    <None Include="..\..\..\icon.png" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
+      
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net452|AnyCPU'">
     <PlatformTarget>x64</PlatformTarget>
     <DocumentationFile>src\AppveyorTest\AppveyorTest\AppveyorTest.xml</DocumentationFile>
